@@ -12,4 +12,4 @@ p: Number of lag observations observed in the model.<br/>
 d: Number of times the raw observations are differenced (stationary time series).<br/>
 q: Size of moving average window.
 
-The program reads in a cleanned csv file in this case patient1.csv. The series values are split into two groups, training and testing arrays. A rolling forecast Arima model is used to make predictions as the time steps progress. The model adds the predicted data back into the history array and takes into account that data as it makes the next prediction using the model. 
+The program reads in a cleaned csv file in this case patient1.csv. The series values are split into two groups, training and testing arrays. A rolling forecast Arima model is used to make predictions as the time steps progress. The model adds the predicted data back into the history array and takes into account that data as it makes the next prediction using the model. 
